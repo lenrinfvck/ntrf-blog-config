@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -32,8 +32,10 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  # categories: /categories
   #about: /about
+  web: /categories/WEB前端
+  mad: /categories/MAD作品
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
@@ -50,6 +52,8 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
+  web: code
+  mad: play
   categories: th
   schedule: calendar
   tags: tags
@@ -145,14 +149,14 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-  BiliBili: play
+  BiliBili: tv
   Notes: pencil
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /uploads/avatar.jpg
+avatar: /avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -243,7 +247,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
