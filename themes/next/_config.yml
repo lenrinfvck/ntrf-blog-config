@@ -338,9 +338,9 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: vqTp2HgELvYRLFrlDB7O5YGX-gzGzoHsz
+  app_key: JU6K0o3SoFG9mFn2heTpe68u
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -456,8 +456,6 @@ vendors:
   algolia_instant_js:
   algolia_instant_css:
 
-
-
 # Assets
 css: css
 js: js
@@ -465,3 +463,4 @@ images: images
 
 # Theme version
 version: 5.1.0
+
