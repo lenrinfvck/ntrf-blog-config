@@ -90,4 +90,19 @@ search:
   format: html
   limit: 10000
 
+# JiaThis 分享服务
+jiathis: true
+
+# 百度分享服务
+# baidushare: true
+#RSS订阅
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
 baidu_analytics: c182c362c098a7bfb663a0292d9becd0
